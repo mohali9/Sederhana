@@ -18,6 +18,8 @@ body {
   h1 {
     color: rgb(0, 0, 0);
     text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
   }
 
   h2{
@@ -27,5 +29,13 @@ body {
   
   p {
     font-family: verdana;
-    font-size: 20px;
+  }
+
+  #paragraf{
+    font-size: 12px;
+    text-align: justify;
+    text-indent: 30px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    line-height: 20px;
   }
