@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(232, 227, 227);
+  }
+
+#navbar{
+    background-color: aquamarine;
+}
+
+.menu{
+    font-size: large;
+}
+  
+  h1 {
+    color: rgb(116, 116, 116);
+    text-align: center;
+  }
+
+  h2{
+    color: blue;
+    font-style: italic;
+}
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
