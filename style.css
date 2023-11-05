@@ -1,5 +1,10 @@
 body {
     background-color: rgb(232, 227, 227);
+    /* background-image: url(img/logo-unpam.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top right; */
+    background: url(img/pemandangan.jpeg) no-repeat fixed top right ;
   }
 
 #navbar{
@@ -11,7 +16,7 @@ body {
 }
   
   h1 {
-    color: rgb(116, 116, 116);
+    color: rgb(0, 0, 0);
     text-align: center;
   }
 
