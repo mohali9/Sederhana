@@ -7,12 +7,26 @@ body{
     background: url(img/pemandangan.jpeg) no-repeat fixed top right ;
   }
 
-#navbar{
+/*#navbar{
     background-color: aquamarine;
-}
+}*/
 
 .menu{
     font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu:link{
+  background:red; 
+}
+.menu:visited{
+  background: yellow;
+}
+.menu:hover{
+  background: green;
+}
+.menu:active{
+  background: blue;
 }
   
   h1 {
@@ -31,7 +45,7 @@ body{
     font-family: verdana;
   }
 
-  #paragraf{
+  #text_panjang{
     font-size: 12px;
     text-align: justify;
     text-indent: 30px;
@@ -40,12 +54,10 @@ body{
     line-height: 20px;
   }
 
-  input:invalid {
-    border: 2px dashed red;
-  }
-  
-  input:valid {
-    border: 2px solid black;
+  #text_pendek{
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: bold;
   }
 
   form {
