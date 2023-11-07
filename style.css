@@ -61,6 +61,13 @@ body{
     font-style: italic;
     /*display: inline;*/
 }
+
+#h2_fixed{
+  background: yellowgreen;
+  position: fixed;
+  top: 100px;
+  left: 20px;
+}
   
   p {
     font-family: verdana;
