@@ -13,28 +13,39 @@ body{
     margin-bottom: 50px;
     margin-right: 50px; */
     /* margin: top right bottom left; */
-    margin: 10px 0px 10px 0px;
+    margin: 30px 10px 10px 10px;
+}
+
+#navbar_profile{
+  /* 1.static, 2.relative, 3.absolute, 4.fixed */
+  position: absolute;
+  top: 50px;
+  left: 50px;
 }
 
 .menu{
-    font-size: large;
+  color: white;
+    font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     /* display: inline-block;
     width: 50px;
     height: 50px; */
+    border: 3px solid black;
+    padding: 10px;
 }
 
 .menu:link{
   background:red; 
 }
 .menu:visited{
-  background: yellow;
+  background: rgb(97, 176, 255);
 }
 .menu:hover{
   background: green;
 }
 .menu:active{
-  background: blue;
+  color: black;
+  background: rgb(0, 204, 255);
 }
   
   h1 {
@@ -74,8 +85,8 @@ body{
     height: 200px;
     max-width: 30%;
     max-height: 100px;
-    /* visibility: hidden; */
-    display: none; 
+    /* visibility: hidden; 
+    display: none; */
   }
 
   form {
