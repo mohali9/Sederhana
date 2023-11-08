@@ -29,9 +29,19 @@ body{
 } */
 
 /* Langsung di bawah parentnya*/
-div > a{
+/* div > a{
   background: yellow;
-}
+} */
+
+/* setelah elemen */
+/* p + div{
+  background: aqua;
+} */
+
+/* semua bagian yg ada di bawahnya */
+/* div ~ p{
+  background: rebeccapurple;
+} */
 
 .menu{
   color: white;
