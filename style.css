@@ -21,6 +21,16 @@ body{
   position: absolute;
   top: 0px;
   left: 50px;
+  /* background: pink; */
+}
+
+/* div a{
+  background: pink;
+} */
+
+/* Langsung di bawah parentnya*/
+div > a{
+  background: yellow;
 }
 
 .menu{
