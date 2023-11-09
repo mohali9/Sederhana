@@ -43,6 +43,10 @@ body{
   background: rebeccapurple;
 } */
 
+input:focus, textarea:focus{
+  background: yellowgreen;
+}
+
 .menu{
   color: white;
     font-size: 20px;
@@ -74,6 +78,14 @@ body{
     text-decoration: underline;
     text-transform: uppercase;
     /*display: inline;*/
+  }
+
+  h1:hover{
+    color: rgb(145, 34, 53);
+  }
+
+  h1:hover + h2{
+    color: rgb(145, 34, 53);
   }
 
   h2{
